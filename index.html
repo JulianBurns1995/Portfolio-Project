@@ -5,8 +5,75 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <nav>
+        <h1 id="logo">Julian Burns</h1>
+        <ul class="nav-items">
+            <li class="nav-item"><a href="#about-me">About Me</a></li>
+            <li class="nav-item"><a href="#projects">Projects</a></li>
+            <li class="nav-item"><a href="#skills">Skills</a></li>
+            <li class="nav-item"><a href="/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+
+    <main>
+        <section id="about-me">
+            <div class="about-me-container">
+                <div class="about-me-text-container">
+                    <h2>About Me</h2>
+                    <p>I'm Julian, a web developer who has created several interesting websites and enjoys writing algorithms and various productivity apps. On this website, you can find
+                        some examples of my work. I like to write Javascript apps in particular, I've done a (strictly for fun) Covid checker app and a sample eStore as projects to test out my skills.</p>
+
+                    </p>
+                </div>
+                <img src="./me.jpg" alt="A photo of Julian Burns" class="portrait">
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>
+                Projects
+            </h2>
+            <details class="project">
+                <summary class="project-title">
+                    <h3>
+                        Covid Checker
+                    </h3>
+                </summary>
+                <img src="./covidchecker.jpg" alt="My Covid Checker App" class="projectImage">
+                <p class="description">
+                    This app was created to check for Covid symptoms, but if you want to really check for them you should consult professionals.
+                </p>
+            </details>
+            <details class="project">
+                <summary class="project-title">
+                    <h3>
+                        Papering My Wall
+                    </h3>
+                </summary>
+                <img src="./paperingmywall.jpg" alt="Papering My Wall Website" class="projectImage">
+                <p class="description">This app was created as an amateur wallpaper eStore.</p>
+            </details>
+            <details class="project">
+                <summary class="project-title">
+                    <h3>
+                        Jorden's Wares  
+                    </h3>
+                </summary>
+                <img src="./jordenswares.jpg" alt="Javascript Project" class="projectImage">
+                <p class="description">For a Viking to sell his wares.</p>
+            </details>
+        </section>
+
+
+    </main>
+
+    <footer>Yours truly.</footer>
+
+    <script src="./script.js"></script>
+    </div>
 </body>
 </html>

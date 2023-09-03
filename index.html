@@ -4,39 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Julian Burns | Web Developer</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
 </head>
 <body>
     <nav>
         <h1 id="logo">Julian Burns</h1>
         <ul class="nav-items">
-            <li class="nav-item"><a href="#about-me">About Me</a></li>
+            <li class="nav-item"><a href="#about-me">About</a></li>
             <li class="nav-item"><a href="#projects">Projects</a></li>
             <li class="nav-item"><a href="#skills">Skills</a></li>
-            <li class="nav-item"><a href="/contact.html">Contact</a></li>
+            <li class="nav-item"><a href="./contact.html">Contact</a></li>
         </ul>
     </nav>
+
+    
     <div class="container">
 
     <main>
         <section id="about-me">
-            <div class="about-me-container">
-                <div class="about-me-text-container">
-                    <h2>About Me</h2>
-                    <p>I'm Julian, a web developer who has created several interesting websites and enjoys writing algorithms and various productivity apps. On this website, you can find
-                        some examples of my work. I like to write Javascript apps in particular, I've done a (strictly for fun) Covid checker app and a sample eStore as projects to test out my skills.</p>
-
+            <div class="content-container">
+                <div class="text-container" id="first-about">
+                    <h2>
+                        About Me
+                    </h2>
+                    <p>I'm Julian, and this is my portfolio site. On here you can find my past projects, skill set, and contact information. I have five years of
+                        IT experience and have worked on development projects involving HTML5, CSS3, Bootstrap, Javascript, and JQuery.
                     </p>
                 </div>
-                <img src="./me.jpg" alt="A photo of Julian Burns" class="portrait">
+                <img src="./me.png" alt="A photo of Julian Burns" class="portrait">
             </div>
         </section>
 
         <section id="projects">
-            <h2>
-                Projects
-            </h2>
+
+            <div class="content-container">
+                <div class="text-container">
+                    <h2>
+                        Projects
+                    </h2>
+                </div>
+
+            <div class="items-container">
+
             <details class="project">
                 <summary class="project-title">
                     <h3>
@@ -66,14 +79,37 @@
                 <img src="./jordenswares.jpg" alt="Javascript Project" class="projectImage">
                 <p class="description">For a Viking to sell his wares.</p>
             </details>
+
+            </div>
+
+        </section>
+
+        <section>
+        <div class="content-container">
+            <div class="text-container">
+                <h2>Skills</h2>
+            </div>
+
+            <div class="items-container" id="skills">
+                <div class="skill">HTML</div>
+                <div class="skill">CSS</div>
+                <div class="skill">Javascript</div>
+                <div class="skill">JQuery</div>
+                <div class="skill">ReactJS</div>
+                <div class="skill">Bootstrap</div>
+                <div class="skill">Networking</div>
+                <div class="skill">Hardware</div>
+                <div class="skill">Server Support</div>
+                <div class="skill">Microsoft & Google Services</div>
+            </div>
+        </div>
+
         </section>
 
 
     </main>
-
-    <footer>Yours truly.</footer>
+    </div>
 
     <script src="./script.js"></script>
-    </div>
 </body>
 </html>
